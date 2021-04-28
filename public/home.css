@@ -1,0 +1,131 @@
+* {
+  user-select: none;
+}
+
+body {
+  background-color: #2a2a2a;
+  min-height: 100vh;
+  background-image: url("/home-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 100%; */
+  background-size: contain;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#home {
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  width: 98%;
+  padding: 1rem;
+  margin: 0 auto;
+  min-height: calc(100vh - 19px);
+  background-position: center;
+  background-size: cover;
+  transition: background-image 0.3s linear;
+  position: relative;
+}
+
+.welcome {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.elevated {
+  box-shadow: -5px -5px 10px rgba(111, 111, 111, 0.25),
+    5px 5px 10px rgba(24, 24, 24, 0.61), -2px -2px 4px rgba(111, 111, 111, 0.5),
+    2px 2px 4px rgba(24, 24, 24, 0.8);
+}
+
+.time-table {
+  position: absolute;
+  right: 1.9rem;
+  top: 1.32rem;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a;
+  transition: all 0.3s linear;
+}
+
+.time-table:active {
+  box-shadow: none;
+}
+
+.time-table svg {
+  margin-bottom: 4px;
+}
+
+.time-table svg path {
+  transition: all 0.3s linear;
+}
+
+.drive {
+  border-radius: 1rem;
+  margin: 3rem 1rem 0 auto;
+  max-width: 150px;
+  padding: 16px;
+  transition: all 0.3s linear;
+}
+
+.drive:active {
+  box-shadow: none;
+}
+
+.drive p {
+  color: #ffffff;
+  margin: 0.19rem;
+}
+
+footer p {
+  color: #707070a4;
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #707070;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    background-image: url("/home-bg-lg.png");
+    background-size: contain !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url("/home-bg-lg.png");
+    background-size: cover;
+  }
+  .welcome {
+    margin-bottom: 0.55rem;
+  }
+  .drive {
+    display: inline-block;
+  }
+  footer P {
+    text-align: right;
+    margin-right: 0.3rem;
+  }
+}

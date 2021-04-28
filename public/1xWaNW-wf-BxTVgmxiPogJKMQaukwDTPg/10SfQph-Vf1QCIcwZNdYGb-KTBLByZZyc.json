@@ -1,0 +1,199 @@
+{
+  "mon": [
+    {
+      "id": 1,
+      "subject": "CST204 (DBMS)",
+      "time": "8:30 to 9:20",
+      "link": "http://meet.google.com/uax-rfxc-jnr",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120"
+    },
+    {
+      "id": 2,
+      "subject": "CST204 (DBMS)",
+      "time": "9:30 to 10:20",
+      "link": "http://meet.google.com/uax-rfxc-jnr",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120"
+    },
+    {
+      "id": 3,
+      "subject": "MAT206 (GT)",
+      "time": "10:30 to 11:20",
+      "link": "http://meet.google.com/ftz-hupx-osr",
+      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+    },
+    {
+      "id": 4,
+      "subject": "HUT200 (PE)",
+      "time": "11:30 to 12:20",
+      "link": "http://meet.google.com/cgp-gxdk-vwo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10042"
+    },
+    {
+      "id": 5,
+      "subject": "CSL204 (OSL)",
+      "time": "1:30 to 3:30",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10080"
+    }
+  ],
+  "tue": [
+    {
+      "id": 1,
+      "subject": "CST202 (COA)",
+      "time": "8:30 to 9:20",
+      "link": "http://meet.google.com/nwb-jbfa-dyo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
+    },
+    {
+      "id": 2,
+      "subject": "CST206 (OS)",
+      "time": "9:30 to 10:20",
+      "link": "http://meet.google.com/dic-sbcy-jii",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+    },
+    {
+      "id": 3,
+      "subject": "CST204 (DBMS)",
+      "time": "10:30 to 11:20",
+      "link": "http://meet.google.com/uax-rfxc-jnr",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120"
+    },
+    {
+      "id": 4,
+      "subject": "CST204 (DBMS)",
+      "time": "11:30 to 12:20",
+      "link": "http://meet.google.com/uax-rfxc-jnr",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10120"
+    },
+    {
+      "id": 5,
+      "subject": "CSL202 (DEL)",
+      "time": "1:30 to 3:30",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10205"
+    }
+  ],
+  "wed": [
+    {
+      "id": 1,
+      "subject": "HONORS",
+      "time": "8:30 to 9:20",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in"
+    },
+    {
+      "id": 2,
+      "subject": "CST202 (COA)",
+      "time": "9:30 to 10:20",
+      "link": "http://meet.google.com/nwb-jbfa-dyo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
+    },
+    {
+      "id": 3,
+      "subject": "MAT206 (GT)",
+      "time": "10:30 to 11:20",
+      "link": "http://meet.google.com/ftz-hupx-osr",
+      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+    },
+    {
+      "id": 4,
+      "subject": "CST206 (OS)",
+      "time": "11:30 to 12:20",
+      "link": "http://meet.google.com/dic-sbcy-jii",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+    },
+    {
+      "id": 5,
+      "subject": "MINOR",
+      "time": "1:30 to 3:30",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in"
+    }
+  ],
+  "thu": [
+    {
+      "id": 1,
+      "subject": "CST202 (COA)",
+      "time": "8:30 to 9:20",
+      "link": "http://meet.google.com/nwb-jbfa-dyo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
+    },
+    {
+      "id": 2,
+      "subject": "CST206 (OS)",
+      "time": "9:30 to 10:20",
+      "link": "http://meet.google.com/dic-sbcy-jii",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+    },
+    {
+      "id": 3,
+      "subject": "MAT206 (GT)",
+      "time": "10:30 to 11:20",
+      "link": "http://meet.google.com/ftz-hupx-osr",
+      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+    },
+    {
+      "id": 4,
+      "subject": "HONORS",
+      "time": "11:30 to 12:20",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in"
+    },
+    {
+      "id": 5,
+      "subject": "MINOR",
+      "time": "1:30 to 3:30",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in"
+    }
+  ],
+  "fri": [
+    {
+      "id": 1,
+      "subject": "CST206 (OS)",
+      "time": "8:30 to 9:20",
+      "link": "http://meet.google.com/dic-sbcy-jii",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
+    },
+    {
+      "id": 2,
+      "subject": "CST202 (COA)",
+      "time": "9:30 to 10:20",
+      "link": "http://meet.google.com/nwb-jbfa-dyo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
+    },
+    {
+      "id": 3,
+      "subject": "MAT206 (GT)",
+      "time": "10:30 to 11:20",
+      "link": "http://meet.google.com/ftz-hupx-osr",
+      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+    },
+    {
+      "id": 4,
+      "subject": "HUT200 (PE)",
+      "time": "11:30 to 12:20",
+      "link": "http://meet.google.com/cgp-gxdk-vwo",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10042"
+    },
+    {
+      "id": 5,
+      "subject": "HONORS",
+      "time": "1:30 to 3:30",
+      "link": "http://meet.google.com",
+      "attendance": "http://moodle.mec.ac.in"
+    }
+  ],
+  "sat": [
+    {
+      "id": "",
+      "subject": "You're all caught up!"
+    }
+  ],
+  "sun": [
+    {
+      "id": "",
+      "subject": "You're all caught up!"
+    }
+  ]
+}

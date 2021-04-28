@@ -1,0 +1,174 @@
+:root {
+  --violet: #6130c9;
+  --blue: #018fdf;
+  --green: #03a70a;
+  --orange: #f58400;
+  --red: #fa3e3e;
+  --pink: #eb0fa0;
+}
+
+.mon-text {
+  color: var(--violet);
+}
+
+.mon-border {
+  border: 4px solid var(--violet);
+}
+
+.mon-bg {
+  background-color: var(--violet);
+}
+
+.mon-bg-img {
+  background-image: url("./assets/bg/background-mon.svg");
+}
+
+.tue-text {
+  color: var(--blue);
+}
+
+.tue-border {
+  border: 4px solid var(--blue);
+}
+
+.tue-bg {
+  background-color: var(--blue);
+}
+
+.tue-bg-img {
+  background-image: url("./assets/bg/background-tue.svg");
+}
+
+.wed-text {
+  color: var(--green);
+}
+
+.wed-border {
+  border: 4px solid var(--green);
+}
+
+.wed-bg {
+  background-color: var(--green);
+}
+
+.wed-bg-img {
+  background-image: url("./assets/bg/background-wed.svg");
+}
+
+.thu-text {
+  color: var(--orange);
+}
+
+.thu-border {
+  border: 4px solid var(--orange);
+}
+
+.thu-bg {
+  background-color: var(--orange);
+}
+
+.thu-bg-img {
+  background-image: url("./assets/bg/background-thu.svg");
+}
+
+.fri-text {
+  color: var(--red);
+}
+
+.fri-border {
+  border: 4px solid var(--red);
+}
+
+.fri-bg {
+  background-color: var(--red);
+}
+
+.fri-bg-img {
+  background-image: url("./assets/bg/background-fri.svg");
+}
+
+.sat-text {
+  color: var(--pink);
+}
+
+.sat-border {
+  border: 4px solid var(--pink);
+}
+
+.sat-bg {
+  background-color: var(--pink);
+}
+
+.sat-bg-img {
+  background-image: url("./assets/bg/background-sat-sun.svg");
+}
+
+.sun-text {
+  color: var(--pink);
+}
+
+.sun-border {
+  border: 4px solid var(--pink);
+}
+
+.sun-bg {
+  background-color: var(--pink);
+}
+
+.sun-bg-img {
+  background-image: url("./assets/bg/background-sat-sun.svg");
+}
+
+@media screen and (min-width: 800px) {
+  .mon-bg-img::before,
+  .wed-bg-img::before,
+  .fri-bg-img::before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 13.6rem;
+    left: 37px;
+    background-size: cover;
+    z-index: -1;
+    /* background-position: 90%; */
+    /* transform: translate(-50px); */
+    transition: all 0.3s linear;
+    background-repeat: no-repeat;
+  }
+
+  .mon-bg-img::before {
+    background-image: url("./assets/illustrations/waiting_for_friday.png") !important;
+  }
+
+  .wed-bg-img::before {
+    background-image: url("./assets/illustrations/writing.png") !important;
+  }
+  .fri-bg-img::before {
+    background-image: url("./assets/illustrations/phone.png") !important;
+  }
+
+  .tue-bg-img::after,
+  .thu-bg-img::after {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 13.6rem;
+    right: 37px;
+    background-size: cover;
+    z-index: -1;
+    /* background-position: 90%; */
+    /* transform: translate(-50px); */
+    transition: all 0.3s linear;
+    background-repeat: no-repeat;
+  }
+
+  .tue-bg-img::after {
+    background-image: url("./assets/illustrations/walking.png");
+  }
+
+  .thu-bg-img::after {
+    background-image: url("./assets/illustrations/saly-texting.png");
+  }
+}

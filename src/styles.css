@@ -63,7 +63,21 @@ a:active {
 .home svg {
   margin-bottom: 4px;
 }
+@media screen and (min-width: 1000px) {
+  .home:hover{
+    box-shadow: -3px -3px 8px rgba(185, 185, 185, 0.55),
+  5px 5px 10px rgba(0, 0, 0, 0.75);
+  }
+  .home svg {
+    transform: scale(0.9);
+    transition: all 0.3s linear;
+  }
+  .home:hover svg{
+    transform: scale(1);
+    transition: all 0.3s linear;
+  }
 
+}
 .home svg path {
   transition: all 0.3s linear;
 }

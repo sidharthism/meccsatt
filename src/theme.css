@@ -172,3 +172,133 @@
     background-image: url("./assets/illustrations/saly-texting.png");
   }
 }
+
+/* Monday */
+
+.sub-item.mon-current-period {
+  border: 4px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: var(--violet) !important;
+}
+
+.sub-item.mon-current-period .sub-item-number {
+  background-color: #ffffff !important;
+}
+
+.sub-item.mon-current-period .sub-item-number h2 {
+  color: var(--violet) !important;
+}
+
+.sub-item.mon-current-period .sub-item-attendance,
+.sub-item.mon-current-period .sub-item-link {
+  background-color: #ffffff !important;
+}
+
+.sub-item.mon-current-period .sub-item-attendance .icon,
+.sub-item.mon-current-period .sub-item-link .icon {
+  color: var(--violet) !important;
+}
+
+/* Tuesday */
+
+.sub-item.tue-current-period {
+  border: 4px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: var(--blue) !important;
+}
+
+.sub-item.tue-current-period .sub-item-number {
+  background-color: #ffffff !important;
+}
+
+.sub-item.tue-current-period .sub-item-number h2 {
+  color: var(--blue) !important;
+}
+
+.sub-item.tue-current-period .sub-item-attendance,
+.sub-item.tue-current-period .sub-item-link {
+  background-color: #ffffff !important;
+}
+
+.sub-item.tue-current-period .sub-item-attendance .icon,
+.sub-item.tue-current-period .sub-item-link .icon {
+  color: var(--blue) !important;
+}
+
+/* Wednesday */
+
+.sub-item.wed-current-period {
+  border: 4px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: var(--green) !important;
+}
+
+.sub-item.wed-current-period .sub-item-number {
+  background-color: #ffffff !important;
+}
+
+.sub-item.wed-current-period .sub-item-number h2 {
+  color: var(--green) !important;
+}
+
+.sub-item.wed-current-period .sub-item-attendance,
+.sub-item.wed-current-period .sub-item-link {
+  background-color: #ffffff !important;
+}
+
+.sub-item.wed-current-period .sub-item-attendance .icon,
+.sub-item.wed-current-period .sub-item-link .icon {
+  color: var(--green) !important;
+}
+
+/* Thursday */
+
+.sub-item.thu-current-period {
+  border: 4px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: var(--orange) !important;
+}
+
+.sub-item.thu-current-period .sub-item-number {
+  background-color: #ffffff !important;
+}
+
+.sub-item.thu-current-period .sub-item-number h2 {
+  color: var(--orange) !important;
+}
+
+.sub-item.thu-current-period .sub-item-attendance,
+.sub-item.thu-current-period .sub-item-link {
+  background-color: #ffffff !important;
+}
+
+.sub-item.thu-current-period .sub-item-attendance .icon,
+.sub-item.thu-current-period .sub-item-link .icon {
+  color: var(--orange) !important;
+}
+
+/* Friday */
+
+.sub-item.fri-current-period {
+  border: 4px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: var(--red) !important;
+}
+
+.sub-item.fri-current-period .sub-item-number {
+  background-color: #ffffff !important;
+}
+
+.sub-item.fri-current-period .sub-item-number h2 {
+  color: var(--red) !important;
+}
+
+.sub-item.fri-current-period .sub-item-attendance,
+.sub-item.fri-current-period .sub-item-link {
+  background-color: #ffffff !important;
+}
+
+.sub-item.fri-current-period .sub-item-attendance .icon,
+.sub-item.fri-current-period .sub-item-link .icon {
+  color: var(--red) !important;
+}

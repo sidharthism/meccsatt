@@ -4,15 +4,17 @@ import Heading from "./components/Heading";
 import Carousel from "./components/Carousel";
 import SubItem from "./components/SubItem";
 import Loading from "./components/Loading";
-import { prevDay, nextDay } from "./utils/days";
 import SubItemV2 from "./components/SubItemV2";
-import cheers from "./assets/cheers.svg";
+import { prevDay, nextDay } from "./utils/days";
+import { getCurrentPeriodID } from "./utils/period";
 import "./styles.css";
 import "./theme.css";
+import cheers from "./assets/cheers.svg";
 
 export default function App() {
   const [day, setDay] = useState("mon");
   const [loading, setLoading] = useState(true);
+  const DAY = useRef("mon");
   const _data = useRef({});
   const prev = () => setDay((d) => prevDay(d));
   const next = () => setDay((d) => nextDay(d));
@@ -21,6 +23,7 @@ export default function App() {
     let date = new Date().toDateString();
     let d = date.slice(0, 4).trim().toLowerCase();
     //console.log(d);
+    DAY.current = d;
     setDay(d);
     axios
       .get(
@@ -53,6 +56,9 @@ export default function App() {
             key={item.id}
             day={day}
             id={item.id}
+            isCurrentPeriod={
+              day === DAY.current && getCurrentPeriodID() === item.id
+            }
             subject={item.subject}
             link={item.link}
             attendance={item.attendance}

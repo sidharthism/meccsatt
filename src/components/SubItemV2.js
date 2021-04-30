@@ -10,24 +10,24 @@ function SubItemV2() {
           <span>8:30 to 3:30</span>
         </p>
       </div>
-      <div className="sub-item-attendance">
-        <a
-          href="http://moodle.mec.ac.in/mod/attendance/view.php?id=9902"
-          target="_blank"
-          rel="noreferrer"
-        >
+      <a
+        href="http://moodle.mec.ac.in/mod/attendance/view.php?id=9902"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="sub-item-attendance">
           <i className="bi bi-people-fill icon" />
-        </a>
-      </div>
-      <div className="sub-item-link">
-        <a
-          href="http://moodle.mec.ac.in/mod/bigbluebuttonbn/view.php?id=9901"
-          target="_blank"
-          rel="noreferrer"
-        >
+        </div>
+      </a>
+      <a
+        href="http://moodle.mec.ac.in/mod/bigbluebuttonbn/view.php?id=9901"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="sub-item-link">
           <i className="bi bi-link-45deg icon" />
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   );
 }

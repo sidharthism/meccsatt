@@ -9,7 +9,7 @@ function getPeriodID() {
             perNum = 1;
         } else if (timeIsBetween(9, 10, 10, 00, d)) {
             perNum = 2;
-        } else if (timeIsBetween(10, 00, 11, 50, d)) {
+        } else if (timeIsBetween(10, 00, 10, 50, d)) {
             perNum = 3;
         } else if (timeIsBetween(10, 50, 11, 40, d)) {
             perNum = 4;

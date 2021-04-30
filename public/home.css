@@ -98,44 +98,71 @@ a:active {
     75%{ text-shadow: 0 0 10px #4285f4;}
     100%{ text-shadow: 0 0 10px #ea4335;}      
   } */
-  .drive:hover{
+  .drive:hover {
     /* #ea4335 - red
        #4285f4 - blue
        #fbbc05 - yellow
        #34a853 - green */
-    box-shadow: 2px 0 4px #ea4335,0 2px 4px #4285f4,-2px 0 4px #34a853,0 -2px 4px #fbbc05;
-    animation: drive 3s linear infinite;
+    /* box-shadow: 2px 0 4px #ea4334, 0 2px 4px #4285f4, -2px 0 4px #34a853,
+      0 -2px 4px #fbbc05; */
+    box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+      0 -4px 4px #fbbc05;
+    animation: drive 3s linear 0.3s infinite;
+  }
+  @keyframes drive {
+    0% {
+      box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+        0 -4px 4px #fbbc05;
     }
-    @keyframes drive {
-      0%{ box-shadow: 4px 0 4px #ea4335,0 4px 4px #4285f4,-4px 0 4px #34a853,0 -4px 4px #fbbc05;}
-      25%{ box-shadow: 4px 0 4px #fbbc05,0 4px 4px #ea4335,-4px 0 4px #4285f4,0 -4px 4px #34a853;}
-      50%{ box-shadow: 4px 0 4px #34a853,0 4px 4px #fbbc05,-4px 0 4px #ea4335,0 -4px 4px #4285f4;}
-      75%{ box-shadow: 4px 0 4px #4285f4,0 4px 4px #34a853,-4px 0 4px #fbbc05,0 -4px 4px #ea4335;}
-      100%{ box-shadow: 4px 0 4px #ea4335,0 4px 4px #4285f4,-4px 0 4px #34a853,0 -4px 4px #fbbc05;}      
+    25% {
+      box-shadow: 4px 0 4px #fbbc05, 0 4px 4px #ea4335, -4px 0 4px #4285f4,
+        0 -4px 4px #34a853;
     }
-    .time-table:hover{
-      box-shadow: -5px -5px 10px rgba(185, 185, 185, 0.25),-2px -2px 6px rgba(185, 185, 185, 0.5),
-    5px 5px 10px rgba(0, 0, 0, 0.91),2px 2px 6px rgba(0, 0, 0);
+    50% {
+      box-shadow: 4px 0 4px #34a853, 0 4px 4px #fbbc05, -4px 0 4px #ea4335,
+        0 -4px 4px #4285f4;
     }
-    .time-table:hover svg {
-      transform: scale(1.1);
-      fill:#ea4335;
-      transition: all 0.3s linear;
-      animation: logo 8s linear infinite;
+    75% {
+      box-shadow: 4px 0 4px #4285f4, 0 4px 4px #34a853, -4px 0 4px #fbbc05,
+        0 -4px 4px #ea4335;
     }
-    @keyframes logo {
-      0%{ fill:#ea4335;}
-      25%{ fill:#4285f4;}
-      50%{ fill:#34a853;}
-      75%{ fill:#fbbc05;}
-      100%{ fill:#ea4335;}
-      
+    100% {
+      box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+        0 -4px 4px #fbbc05;
     }
-  
+  }
+  .time-table:hover {
+    box-shadow: -5px -5px 10px rgba(185, 185, 185, 0.25),
+      -2px -2px 6px rgba(185, 185, 185, 0.5), 5px 5px 10px rgba(0, 0, 0, 0.91),
+      2px 2px 6px rgba(0, 0, 0);
+  }
+  .time-table:hover svg {
+    transform: scale(1.1);
+    fill: #ea4335;
+    transition: all 0.3s linear;
+    animation: logo 8s linear infinite;
+  }
+  @keyframes logo {
+    0% {
+      fill: #ea4335;
+    }
+    25% {
+      fill: #4285f4;
+    }
+    50% {
+      fill: #34a853;
+    }
+    75% {
+      fill: #fbbc05;
+    }
+    100% {
+      fill: #ea4335;
+    }
+  }
 }
 
 .drive:active {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 .drive p {

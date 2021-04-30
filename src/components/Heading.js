@@ -10,8 +10,8 @@ function Heading({ day }) {
           👋
         </span>
       </h1>
-      <div className="home">
-        <a href="/home.html">
+      <a href="/home.html">
+        <div className="home">
           <svg
             width="40"
             height="34"
@@ -24,8 +24,8 @@ function Heading({ day }) {
               fill={colors[day]}
             />
           </svg>
-        </a>
-      </div>
+        </div>
+      </a>
     </>
   );
 }

@@ -19,7 +19,7 @@
       "subject": "MAT206 (GT)",
       "time": "10:30 to 11:20",
       "link": "http://meet.google.com/ftz-hupx-osr",
-      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10468"
     },
     {
       "id": 4,
@@ -93,7 +93,7 @@
       "subject": "MAT206 (GT)",
       "time": "10:30 to 11:20",
       "link": "http://meet.google.com/ftz-hupx-osr",
-      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10468"
     },
     {
       "id": 4,
@@ -130,7 +130,7 @@
       "subject": "MAT206 (GT)",
       "time": "10:30 to 11:20",
       "link": "http://meet.google.com/ftz-hupx-osr",
-      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10468"
     },
     {
       "id": 4,
@@ -151,35 +151,35 @@
     {
       "id": 1,
       "subject": "CST206 (OS)",
-      "time": "8:30 to 9:20",
+      "time": "8:30 to 9:10",
       "link": "http://meet.google.com/dic-sbcy-jii",
       "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10137"
     },
     {
       "id": 2,
       "subject": "CST202 (COA)",
-      "time": "9:30 to 10:20",
+      "time": "9:20 to 10:00",
       "link": "http://meet.google.com/nwb-jbfa-dyo",
       "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10118"
     },
     {
       "id": 3,
       "subject": "MAT206 (GT)",
-      "time": "10:30 to 11:20",
+      "time": "10:10 to 10:50",
       "link": "http://meet.google.com/ftz-hupx-osr",
-      "attendance": "http://moodle.mec.ac.in/course/view.php?id=410"
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10468"
     },
     {
       "id": 4,
       "subject": "HUT200 (PE)",
-      "time": "11:30 to 12:20",
+      "time": "11:00 to 11:40",
       "link": "http://meet.google.com/cgp-gxdk-vwo",
       "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10042"
     },
     {
       "id": 5,
       "subject": "HONORS",
-      "time": "1:30 to 3:30",
+      "time": "2:00 to 4:00",
       "link": "http://meet.google.com",
       "attendance": "http://moodle.mec.ac.in"
     }

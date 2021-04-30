@@ -14,7 +14,7 @@ export default function App() {
   const [day, setDay] = useState("mon");
   const [loading, setLoading] = useState(true);
   const _data = useRef({});
-
+  print("he");
   const prev = () => setDay((d) => prevDay(d));
   const next = () => setDay((d) => nextDay(d));
 

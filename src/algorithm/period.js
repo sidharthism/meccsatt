@@ -7,13 +7,13 @@ function getPeriodID() {
     if (day == 5) {
         if (timeIsBetween(8, 30, 9, 10, d)) {
             perNum = 1;
-        } else if (timeIsBetween(9, 10, 10, 00, d)) {
+        } else if (timeIsBetween(9, 10, 10, 0, d)) {
             perNum = 2;
-        } else if (timeIsBetween(10, 00, 10, 50, d)) {
+        } else if (timeIsBetween(10, 0, 10, 50, d)) {
             perNum = 3;
         } else if (timeIsBetween(10, 50, 11, 40, d)) {
             perNum = 4;
-        } else if (timeIsBetween(11, 40, 16, 00, d)) {
+        } else if (timeIsBetween(11, 40, 16, 0, d)) {
             perNum = 5;
         } else {
             perNum = 0;

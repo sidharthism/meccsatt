@@ -182,11 +182,12 @@ footer a:hover {
 
 .laptop{
     position: absolute;
-    transform: translate(48.4vw,-26.4vh);
+    top:71%;
+    left: 48.7%;
     background-color: transparent;
     cursor: pointer;
-    width: 110px;
-    height: 62px;
+    width: 100px;
+    height: 60px;
     transition: all 0.3s ease;
   }
   .laptop:hover{
@@ -202,12 +203,12 @@ footer a:hover {
     height: 35px;
     transition: all 0.3s ease;
   }
-  .notice-1{ transform: translate(59.7vw,-52.4vh); }
-  .notice-2{ transform: translate(56.3vw,-46.2vh); }
-  .notice-3{ transform: translate(59.9vw,-40.4vh); }
-  .notice-4{ transform: translate(34.9vw,-69.2vh); }
-  .notice-5{ transform: translate(39vw,-63.9vh); }
-  .notice-6{ transform: translate(36vw,-57.5vh); }
+  .notice-1{ top:45.2%; left:59.7%; }
+  .notice-2{ top:51.2%; left:56.3%; }
+  .notice-3{ top:57.2%; left:59.9%; }
+  .notice-4{ top:28.3%; left:35%; }
+  .notice-5{ top:33.8%; left:39.1%; }
+  .notice-6{ top:40%; left:36%; }
 
   .notice-1:hover,.notice-2:hover,.notice-3:hover,.notice-4:hover,.notice-5:hover,.notice-6:hover{
     border-radius: 3px;

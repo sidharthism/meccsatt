@@ -13,9 +13,12 @@ import cheers from "./assets/cheers.svg";
 
 export default function App() {
   const [day, setDay] = useState("mon");
+  const [currentPeriodID, setCurrentPeriodID] = useState(getCurrentPeriodID());
+  //console.log(currentPeriodID);
   const [loading, setLoading] = useState(true);
   const DAY = useRef("mon");
-  const _data = useRef({});
+  const INTERVAL = useRef(null);
+  const DATA = useRef({});
   const prev = () => setDay((d) => prevDay(d));
   const next = () => setDay((d) => nextDay(d));
 
@@ -31,12 +34,21 @@ export default function App() {
       )
       .then((res) => {
         // console.log(res);
-        _data.current = res.data;
+        DATA.current = res.data;
         setLoading(false);
       })
       .catch((err) => {
         alert(err);
       });
+    INTERVAL.current = setInterval(() => {
+      let id = getCurrentPeriodID();
+      // setCurrentPeriodID((id) => {
+      //   if (id !== getCurrentPeriodID()) return newID;
+      //   return id;
+      // });
+      if (id !== currentPeriodID) setCurrentPeriodID(id);
+    }, 7000);
+    return () => clearInterval(INTERVAL.current);
   }, []);
 
   return (
@@ -50,15 +62,13 @@ export default function App() {
         </div>
       )}
       {!loading &&
-        _data.current[day] &&
-        _data.current[day].map((item) => (
+        DATA.current[day] &&
+        DATA.current[day].map((item) => (
           <SubItem
             key={item.id}
             day={day}
             id={item.id}
-            isCurrentPeriod={
-              day === DAY.current && getCurrentPeriodID() === item.id
-            }
+            isCurrentPeriod={day === DAY.current && currentPeriodID === item.id}
             subject={item.subject}
             link={item.link}
             attendance={item.attendance}

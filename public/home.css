@@ -83,60 +83,128 @@ a:active {
   border-radius: 1rem;
   margin: 3rem 1rem 0 auto;
   max-width: 150px;
+  transition: all 0.3s linear;
+  /* position: relative; */
+}
+
+.drive-box {
+  height: 100%;
+  width: 100%;
   padding: 16px;
+  border-radius: 1rem;
   transition: all 0.3s linear;
 }
 
+/* .drive::before {
+  content: "";
+  width: inherit;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 140.06px;
+  height: 158.07px;
+  z-index: -99;
+  background-color: #ffffff07;
+  border-radius: 1rem;
+  max-width: 150px;
+  transition: all 0.3s linear;
+} */
+
 @media screen and (min-width: 1000px) {
-  .welcome{
-      transition: all 0.3 ease;
-      margin-right: 85%
-    }
-  .welcome:hover{
+  .welcome {
+    transition: all 0.3 ease;
+    margin-right: 85%;
+  }
+  .welcome:hover {
     color: #000000;
     transition: all 0.3s ease;
     animation: welcome 8s linear infinite;
   }
   @keyframes welcome {
-    0%{ text-shadow: 0 0 5px #6130c9;}
-    25%{ text-shadow: 0 0 5px #eb0fa0;}
-    50%{ text-shadow: 0 0 5px #03a70a;}
-    75%{ text-shadow: 0 0 5px #f58400;}
-    100%{ text-shadow: 0 0 5px #6130c9;}      
+    0% {
+      text-shadow: 0 0 5px #6130c9;
+    }
+    25% {
+      text-shadow: 0 0 5px #eb0fa0;
+    }
+    50% {
+      text-shadow: 0 0 5px #03a70a;
+    }
+    75% {
+      text-shadow: 0 0 5px #f58400;
+    }
+    100% {
+      text-shadow: 0 0 5px #6130c9;
+    }
   }
-  .drive:hover{
+  .drive:hover {
     /* #ea4335 - red
        #4285f4 - blue
        #fbbc05 - yellow
        #34a853 - green */
-    box-shadow: 2px 0 4px #ea4335,0 2px 4px #4285f4,-2px 0 4px #34a853,0 -2px 4px #fbbc05;
-    animation: drive 3s linear infinite;
+    /* box-shadow: 2px 0 4px #ea4335, 0 2px 4px #4285f4, -2px 0 4px #34a853,
+      0 -2px 4px #fbbc05; */
+    box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+      0 -4px 4px #fbbc05;
+  }
+  /* .drive:hover::before {
+    box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+      0 -4px 4px #fbbc05;
+  } */
+  .drive-box:hover {
+    animation: drive 3s linear 0.35s infinite;
+  }
+
+  @keyframes drive {
+    0% {
+      box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+        0 -4px 4px #fbbc05;
     }
-    @keyframes drive {
-      0%{ box-shadow: 4px 0 4px #ea4335,0 4px 4px #4285f4,-4px 0 4px #34a853,0 -4px 4px #fbbc05;}
-      25%{ box-shadow: 4px 0 4px #fbbc05,0 4px 4px #ea4335,-4px 0 4px #4285f4,0 -4px 4px #34a853;}
-      50%{ box-shadow: 4px 0 4px #34a853,0 4px 4px #fbbc05,-4px 0 4px #ea4335,0 -4px 4px #4285f4;}
-      75%{ box-shadow: 4px 0 4px #4285f4,0 4px 4px #34a853,-4px 0 4px #fbbc05,0 -4px 4px #ea4335;}
-      100%{ box-shadow: 4px 0 4px #ea4335,0 4px 4px #4285f4,-4px 0 4px #34a853,0 -4px 4px #fbbc05;}      
+    25% {
+      box-shadow: 4px 0 4px #fbbc05, 0 4px 4px #ea4335, -4px 0 4px #4285f4,
+        0 -4px 4px #34a853;
     }
-    .time-table:hover{
-      box-shadow: -5px -5px 10px rgba(185, 185, 185, 0.25),-2px -2px 6px rgba(185, 185, 185, 0.5),
-    5px 5px 10px rgba(0, 0, 0, 0.91),2px 2px 6px rgba(0, 0, 0);
+    50% {
+      box-shadow: 4px 0 4px #34a853, 0 4px 4px #fbbc05, -4px 0 4px #ea4335,
+        0 -4px 4px #4285f4;
     }
-    .time-table:hover svg {
-      transform: scale(1.1);
-      fill:#ea4335;
-      transition: all 0.3s linear;
-      animation: logo 8s linear infinite;
+    75% {
+      box-shadow: 4px 0 4px #4285f4, 0 4px 4px #34a853, -4px 0 4px #fbbc05,
+        0 -4px 4px #ea4335;
     }
-    @keyframes logo {
-      0%{ fill:#ea4335;}
-      25%{ fill:#4285f4;}
-      50%{ fill:#34a853;}
-      75%{ fill:#fbbc05;}
-      100%{ fill:#ea4335;}
-      
+    100% {
+      box-shadow: 4px 0 4px #ea4335, 0 4px 4px #4285f4, -4px 0 4px #34a853,
+        0 -4px 4px #fbbc05;
     }
+  }
+  .time-table:hover {
+    box-shadow: -5px -5px 10px rgba(185, 185, 185, 0.25),
+      -2px -2px 6px rgba(185, 185, 185, 0.5), 5px 5px 10px rgba(0, 0, 0, 0.91),
+      2px 2px 6px rgba(0, 0, 0);
+  }
+  .time-table:hover svg {
+    transform: scale(1.1);
+    fill: #ea4335;
+    transition: all 0.3s linear;
+    animation: logo 8s linear infinite;
+  }
+  @keyframes logo {
+    0% {
+      fill: #ea4335;
+    }
+    25% {
+      fill: #4285f4;
+    }
+    50% {
+      fill: #34a853;
+    }
+    75% {
+      fill: #fbbc05;
+    }
+    100% {
+      fill: #ea4335;
+    }
+  }
 }
 
 .drive:active {
@@ -148,10 +216,22 @@ a:active {
   margin: 0.19rem;
 }
 
-.flutter,.green,.blue,.purple,.pink,.red,.orange{
+.flutter,
+.green,
+.blue,
+.purple,
+.pink,
+.red,
+.orange {
   display: none;
 }
-.laptop,.notice-1,.notice-2,.notice-3,.notice-4,.notice-5,.notice-6{
+.laptop,
+.notice-1,
+.notice-2,
+.notice-3,
+.notice-4,
+.notice-5,
+.notice-6 {
   display: none;
 }
 
@@ -172,17 +252,29 @@ footer a:hover {
     background-image: url("/home-bg-lg.png");
     background-size: contain !important;
   }
-  .flutter,.green,.blue,.purple,.pink,.red,.orange{
+  .flutter,
+  .green,
+  .blue,
+  .purple,
+  .pink,
+  .red,
+  .orange {
     display: block;
   }
 
-  .laptop,.notice-1,.notice-2,.notice-3,.notice-4,.notice-5,.notice-6{
+  .laptop,
+  .notice-1,
+  .notice-2,
+  .notice-3,
+  .notice-4,
+  .notice-5,
+  .notice-6 {
     display: block;
   }
 
-.laptop{
+  .laptop {
     position: absolute;
-    top:71%;
+    top: 71%;
     left: 48.7%;
     background-color: transparent;
     cursor: pointer;
@@ -190,12 +282,17 @@ footer a:hover {
     height: 60px;
     transition: all 0.3s ease;
   }
-  .laptop:hover{
+  .laptop:hover {
     box-shadow: 0 0 20px #018fdf;
     transition: all 0.3s ease;
   }
 
-  .notice-1,.notice-2,.notice-3,.notice-4,.notice-5,.notice-6{
+  .notice-1,
+  .notice-2,
+  .notice-3,
+  .notice-4,
+  .notice-5,
+  .notice-6 {
     position: absolute;
     background-color: transparent;
     cursor: pointer;
@@ -203,24 +300,59 @@ footer a:hover {
     height: 35px;
     transition: all 0.3s ease;
   }
-  .notice-1{ top:45.2%; left:59.7%; }
-  .notice-2{ top:51.2%; left:56.3%; }
-  .notice-3{ top:57.2%; left:59.9%; }
-  .notice-4{ top:28.3%; left:35%; }
-  .notice-5{ top:33.8%; left:39.1%; }
-  .notice-6{ top:40%; left:36%; }
+  .notice-1 {
+    top: 45.2%;
+    left: 59.7%;
+  }
+  .notice-2 {
+    top: 51.2%;
+    left: 56.3%;
+  }
+  .notice-3 {
+    top: 57.2%;
+    left: 59.9%;
+  }
+  .notice-4 {
+    top: 28.3%;
+    left: 35%;
+  }
+  .notice-5 {
+    top: 33.8%;
+    left: 39.1%;
+  }
+  .notice-6 {
+    top: 40%;
+    left: 36%;
+  }
 
-  .notice-1:hover,.notice-2:hover,.notice-3:hover,.notice-4:hover,.notice-5:hover,.notice-6:hover{
+  .notice-1:hover,
+  .notice-2:hover,
+  .notice-3:hover,
+  .notice-4:hover,
+  .notice-5:hover,
+  .notice-6:hover {
     border-radius: 3px;
     transition: all 0.3s ease;
   }
 
-  .notice-1:hover{ box-shadow: 0 0 10px 3px #03a70a; }
-  .notice-2:hover{ box-shadow: 0 0 10px 3px #018fdf; }
-  .notice-3:hover{box-shadow: 0 0 10px 3px #6130c9; }
-  .notice-4:hover{ box-shadow: 0 0 10px 3px #eb0fa0; }
-  .notice-5:hover{ box-shadow: 0 0 10px 3px #fa3e3e; }
-  .notice-6:hover{ box-shadow: 0 0 10px 3px #f58400; }
+  .notice-1:hover {
+    box-shadow: 0 0 10px 3px #03a70a;
+  }
+  .notice-2:hover {
+    box-shadow: 0 0 10px 3px #018fdf;
+  }
+  .notice-3:hover {
+    box-shadow: 0 0 10px 3px #6130c9;
+  }
+  .notice-4:hover {
+    box-shadow: 0 0 10px 3px #eb0fa0;
+  }
+  .notice-5:hover {
+    box-shadow: 0 0 10px 3px #fa3e3e;
+  }
+  .notice-6:hover {
+    box-shadow: 0 0 10px 3px #f58400;
+  }
 }
 
 @media screen and (min-width: 800px) {

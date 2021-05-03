@@ -21,13 +21,13 @@ function getCurrentPeriodID() {
   } else {
     if (timeIsBetween(8, 30, 9, 30, d)) {
       perNum = 1;
-    } else if (timeIsBetween(9, 30, 10, 30, d)) {
+    } else if (timeIsBetween(9, 30, 10, 20, d)) {
       perNum = 2;
-    } else if (timeIsBetween(10, 30, 11, 30, d)) {
+    } else if (timeIsBetween(10, 20, 11, 20, d)) {
       perNum = 3;
-    } else if (timeIsBetween(11, 30, 12, 30, d)) {
+    } else if (timeIsBetween(11, 20, 12, 20, d)) {
       perNum = 4;
-    } else if (timeIsBetween(12, 30, 15, 30, d)) {
+    } else if (timeIsBetween(12, 20, 15, 30, d)) {
       perNum = 5;
     } else {
       perNum = 0;

@@ -76,9 +76,9 @@
   "wed": [
     {
       "id": 1,
-      "subject": "HONORS",
+      "subject": "Honours",
       "time": "8:30 to 9:20",
-      "link": "https://meet.google.com",
+      "link": "https://meet.google.com/rni-tqub-uso",
       "attendance": "http://moodle.mec.ac.in"
     },
     {
@@ -134,9 +134,9 @@
     },
     {
       "id": 4,
-      "subject": "HONORS",
+      "subject": "Honours",
       "time": "11:30 to 12:20",
-      "link": "https://meet.google.com",
+      "link": "https://meet.google.com/rni-tqub-uso",
       "attendance": "http://moodle.mec.ac.in"
     },
     {
@@ -178,9 +178,9 @@
     },
     {
       "id": 5,
-      "subject": "HONORS",
+      "subject": "Honours",
       "time": "2:00 to 4:00",
-      "link": "https://meet.google.com",
+      "link": "https://meet.google.com/rni-tqub-uso",
       "attendance": "http://moodle.mec.ac.in"
     }
   ],

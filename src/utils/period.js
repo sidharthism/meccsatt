@@ -19,9 +19,9 @@ function getCurrentPeriodID() {
       perNum = 0;
     }
   } else {
-    if (timeIsBetween(8, 30, 9, 30, d)) {
+    if (timeIsBetween(8, 30, 9, 20, d)) {
       perNum = 1;
-    } else if (timeIsBetween(9, 30, 10, 20, d)) {
+    } else if (timeIsBetween(9, 20, 10, 20, d)) {
       perNum = 2;
     } else if (timeIsBetween(10, 20, 11, 20, d)) {
       perNum = 3;

@@ -32,7 +32,7 @@
       "id": 5,
       "subject": "CSL204 (OSL)",
       "time": "1:30 to 3:30",
-      "link": "https://meet.google.com",
+      "link": "https://meet.google.com/ujb-guwr-efj",
       "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10080"
     }
   ],
@@ -69,7 +69,7 @@
       "id": 5,
       "subject": "CSL202 (DEL)",
       "time": "1:30 to 3:30",
-      "link": "https://meet.google.com",
+      "link": "http://moodle.mec.ac.in/mod/url/view.php?id=10733",
       "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=10205"
     }
   ],
@@ -78,8 +78,8 @@
       "id": 1,
       "subject": "Honours",
       "time": "8:30 to 9:20",
-      "link": "https://meet.google.com/rni-tqub-uso",
-      "attendance": "http://moodle.mec.ac.in"
+      "link": "http://moodle.mec.ac.in/mod/url/view.php?id=11421",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=11073"
     },
     {
       "id": 2,
@@ -136,8 +136,8 @@
       "id": 4,
       "subject": "Honours",
       "time": "11:30 to 12:20",
-      "link": "https://meet.google.com/rni-tqub-uso",
-      "attendance": "http://moodle.mec.ac.in"
+      "link": "http://moodle.mec.ac.in/mod/url/view.php?id=11421",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=11073"
     },
     {
       "id": 5,
@@ -180,8 +180,8 @@
       "id": 5,
       "subject": "Honours",
       "time": "2:00 to 4:00",
-      "link": "https://meet.google.com/rni-tqub-uso",
-      "attendance": "http://moodle.mec.ac.in"
+      "link": "http://moodle.mec.ac.in/mod/url/view.php?id=11421",
+      "attendance": "http://moodle.mec.ac.in/mod/attendance/view.php?id=11073"
     }
   ],
   "sat": [
